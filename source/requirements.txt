@@ -1,4 +1,4 @@
-azure-identity==1.10.0
+azure-identity==1.16.1
 azure-keyvault-secrets==4.5.1
 celery==5.2.7
 Flask==2.3.2
@@ -10,21 +10,21 @@ flask-marshmallow==0.14.0
 Flask-Caching==1.10.1
 marshmallow==3.20.1
 marshmallow-sqlalchemy==0.30.0
-gunicorn==20.1.0
+gunicorn==22.0.0
 psycopg2-binary==2.9.1
 pyunpack==0.2.2
 packaging==21.3
-requests==2.31.0
+requests==2.32.2
 SQLAlchemy==2.0.24
 SQLAlchemy-ImageAttach==1.1.0
 SQLAlchemy-Utils==0.41.1
-urllib3==1.26.5
-Werkzeug==2.3.7
-WTForms==2.2.1
+urllib3==1.26.19
+Werkzeug==3.0.3
+WTForms==2.3.0
 flask-socketio==5.1.1
 eventlet==0.30.2
 alembic==1.7.5
-setuptools>=65.5.1
+setuptools>=70.0.0
 python-dateutil==2.8.2
 python-gnupg==0.4.8
 pyminizip~=0.2.6
@@ -42,3 +42,4 @@ dependencies/iris_vt_module-1.2.1-py3-none-any.whl
 dependencies/iris_misp_module-1.3.0-py3-none-any.whl
 dependencies/iris_webhooks_module-1.0.4-py3-none-any.whl
 dependencies/iris_intelowl_module-0.1.0-py3-none-any.whl
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
