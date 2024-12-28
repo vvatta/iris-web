@@ -17,8 +17,6 @@
 #  Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 
-FROM nginx:1.27.2
-
 RUN apt-get update && apt-get install -y curl
 
 # Used to pass protected files to the container through volumes
